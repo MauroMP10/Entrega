@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/*******************************************/
+/*****************HEADER********************/
+/*******************************************/
+
+.width-bg {
+    background-color: rgb(71, 71, 73);
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url("../img/portada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero-content {
+    width: 60%;
+    padding: 2rem;
+    border-radius: .5rem;
+    background-color: rgba(245, 237, 225, 0.733);
+    backdrop-filter: blur(3px);
+    color: rgb(18, 17, 19);
+}
+
+.margin-section {
+    margin-top: 70px;
+}
+
+
+
+/*******************************************/
+/******************FOOTER*******************/
+/*******************************************/
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+}
+.footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #ddd;
+}
+.footer-icon {
+    font-size: 1.5rem;
+}
+
+/*******************************************/
+/******************PRODUCTOS****************/
+/*******************************************/
+
+.productos {
+    padding: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.p-abike {
+width: 500px;
+height: 500px;
+margin: 20px;
+}
+
+.resized-image {
+    width: 80%;
+    height: auto;
+}
+
+.abike-text {
+    line-height: 25px;
+}
+
+/*******************************************/
+/******************CONTACTO*****************/
+/*******************************************/
+
+.form {
+padding: 6rem;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 3px   ;
+
+}
+
+/*******************************************/
+/******************BLOG*********************/
+/*******************************************/
+
+
+main {
+    margin-top: 2rem;
+}
+
+.blog {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 4rem;
+    margin: 0 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.blog img {
+    max-width: 200px; 
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.blog-text {
+    flex: 1;
+}
+
+.blog h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.blog p {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+}
+
+.blog a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #09417c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.blog a:hover {
+    background-color: #0056b3;
+}
+
+/*******************************************/
+/*****************NUTRICION******************/
+/*******************************************/
+
+.nutricion {
+    box-sizing: border-box;
+}
+
+.div-nutricion {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.nutricion-title {
+    margin: 3rem;
+}
+
+.nutricion-text {
+    margin: 3rem;
+}
+
+.nutricion-list {
+    list-style-type: disc;
+    margin: 20px;
+    padding: 0;
+}
+
+.text-list {
+    margin: 0 0 .5rem 3rem;
+}
+
